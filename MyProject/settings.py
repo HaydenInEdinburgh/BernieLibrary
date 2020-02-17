@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'o5xkemg@s&aelzjwei&c*6gf&+_o+f
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['damp-everglades-53212.herokuapp.com',]
+ALLOWED_HOSTS = ['damp-everglades-53212.herokuapp.com',
+		'bernielibrary.herokuapp.com',]
 
 
 # Application definition
